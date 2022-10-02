@@ -39,8 +39,8 @@ class ContrastiveSWM(nn.Module):
         num_channels = input_dims[0]
         width_height = input_dims[1:]
 
-        self.sim_coeff = 25.0
-        self.std_coeff = 25.0
+        self.sim_coeff = 1.0
+        self.std_coeff = 1.0
         self.cov_coeff = 1.0
 
         if encoder == 'small':

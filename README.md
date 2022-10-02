@@ -49,7 +49,7 @@ python eval.py --dataset data/pong_eval.h5 --save-folder checkpoints/pong_vic --
 ### 2D Shapes
 | Loss        | H@1            | MRR          |
 |-------------|----------------|--------------|
-| contrastive | **99** $\pm$ 0.0  | **99**() $\pm$ 0.0 |
+| contrastive | **99** $\pm$ 0.0  | **99** $\pm$ 0.0 |
 | VICreg      | **99** $\pm$ 0.0 | **99** $\pm$ 0.0 |
 
 ### Pong
